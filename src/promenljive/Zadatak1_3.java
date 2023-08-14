@@ -6,13 +6,13 @@ public class Zadatak1_3 {
 		// Program koji racuna povrsinu i obim kruga poluprecnika r=20
 
 		int poluprecnik;
-		double pi = Math.PI;
+		final double PI = Math.PI;
 		double povrsina;
 		double obim;
 		
 		poluprecnik = 20;
-		povrsina = poluprecnik*poluprecnik*pi;
-		obim = 2*poluprecnik*pi;
+		povrsina = poluprecnik*poluprecnik*PI;
+		obim = 2*poluprecnik*PI;
 		
 		System.out.println("Povrsina kruga ciji je poluprecnik " + poluprecnik
 				+ " iznosi " + povrsina + ".");
